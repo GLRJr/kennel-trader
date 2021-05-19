@@ -1,0 +1,26 @@
+body{
+    margin: 0 0 0 0;
+}
+
+.homepageHeader {
+    display: flex;
+    justify-content: center;
+    background-color: #ff5758;
+    height: 300px;
+}
+
+.homepageBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 75px;
+}

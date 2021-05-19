@@ -1,5 +1,6 @@
 {
   "name": "kennel-trader-site",
+  "homepage": "http://kenneltrader.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
