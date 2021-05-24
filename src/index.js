@@ -3,6 +3,11 @@ import ReactDOM from "react-dom";
 import styles from "./styles.module.css";
 import logo from "./assets/website_logo_transparent_background.png";
 import ProjectCard from "./Components/ProjectCard";
+import Image from './assets/318x180.svg';
+import puppySocial from './assets/puppy-social1.jpg';
+
+
+
 
 // Create a react component
 let marketdesciption = "A place where you can buy, sell, or trade your gemtly used pet supplies with others";
@@ -24,8 +29,8 @@ const App = () => {
         </h3>
       </div>
       <div className={styles.cardContainer}>
-        <ProjectCard title="Market Place" body={marketdesciption} />
-        <ProjectCard title="Puppy Social" body={puppysocialdescription} />
+        <ProjectCard title="Market Place" body={marketdesciption} image={Image} />
+        <ProjectCard title="Puppy Social" body={puppysocialdescription} image={puppySocial}  />
         <ProjectCard title="Pet Connect" body={petconnectdescription} />
       </div>
     </div>
