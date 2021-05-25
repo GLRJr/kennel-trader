@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import styles from "./styles.module.css";
 import logo from "./assets/website_logo_transparent_background.png";
 import ProjectCard from "./Components/ProjectCard";
-import Image from './assets/318x180.svg';
+import marketplace from './assets/market-place1.jpg';
 import puppySocial from './assets/puppy-social1.jpg';
-
+import petconnect from './assets/pet-connect1.jpg';
 
 
 
@@ -29,9 +29,9 @@ const App = () => {
         </h3>
       </div>
       <div className={styles.cardContainer}>
-        <ProjectCard title="Market Place" body={marketdesciption} image={Image} />
+        <ProjectCard title="Market Place" body={marketdesciption} image={marketplace} />
         <ProjectCard title="Puppy Social" body={puppysocialdescription} image={puppySocial}  />
-        <ProjectCard title="Pet Connect" body={petconnectdescription} />
+        <ProjectCard title="Pet Connect" body={petconnectdescription} image={petconnect} />
       </div>
     </div>
   );
